@@ -10,4 +10,4 @@ Self Driving Car/last_brain.pth
 *.h5
 my_log_dir/
 
-fer2013/
+fer2013.csv
