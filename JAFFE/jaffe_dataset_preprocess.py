@@ -9,7 +9,7 @@ import shutil
 
 
 def get_train_test(data_list):
-    split = 0.7
+    split = 0.9
     index = floor(len(data_list)*split)
     training_data = data_list[:index]
     testing_data = data_list[index:]
@@ -69,9 +69,9 @@ def test_train_split(root_dir,train_dir,test_dir):
         
         
         
-source_dir =  "/media/shuvendu/Projects/Datasets/jaffe/raw"
-train_dir = "/media/shuvendu/Projects/Datasets/jaffe/train"
-test_dir = "/media/shuvendu/Projects/Datasets/jaffe/test"
+source_dir =  "jaffe"
+train_dir = "data/train"
+test_dir = "data/test"
     
 test_train_split(source_dir, train_dir, test_dir) 
         
