@@ -11,3 +11,4 @@ Self Driving Car/last_brain.pth
 my_log_dir/
 
 fer2013.csv
+logs/
